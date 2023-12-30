@@ -1,0 +1,45 @@
+{
+  "name": "roserc",
+  "description": "astonishing config file loader",
+  "version": "1.0.0",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "homepage": "https://rosestack.meslzy.com/roserc",
+  "repository": "https://github.com/rosestack/roserc",
+  "bugs": "https://github.com/rosestack/roserc/issues",
+  "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "watch": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint . --ext .ts --fix",
+    "test": "vitest --coverage --ui",
+    "upgrade": "roserepo upgrade",
+    "version": "roserepo version",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@swc/core": "^1.3.101",
+    "dotenv": "^16.3.1",
+    "rollup": "^4.9.1",
+    "rosetil": "^1.0.2",
+    "type-fest": "^4.9.0",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "rosestack",
+    "roserc"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}

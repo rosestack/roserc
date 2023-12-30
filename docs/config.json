@@ -1,0 +1,26 @@
+{
+  "shortDescription": "Astonishing config file loader",
+  "longDescription": "Roserc is a config file loader that supports loading JS, TS, package.json, tsconfig.json, and dotenv.",
+  "features": [],
+  "action": {
+    "primary": {
+      "name": "Getting Started",
+      "url": "getting-started"
+    },
+    "secondary": {
+      "name": "Introduction",
+      "url": "introduction"
+    }
+  },
+  "navbar": [],
+  "sidebar": [
+    {
+      "name": "Introduction",
+      "url": "introduction"
+    },
+    {
+      "name": "Getting Started",
+      "url": "getting-started"
+    }
+  ]
+}
